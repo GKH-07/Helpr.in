@@ -1,0 +1,180 @@
+/* 
+.container1 {
+    color: #fff;
+    width: 100%;
+    
+    background-color: rgb(50, 50, 50);
+    
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.2);
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 45%;
+}
+
+.form h2 {
+    margin-top: 7%;
+    font-size: 40px;
+    font-family: Poppins;
+    margin-bottom: 20px;
+    color:#e4dbdb
+}
+textarea{
+    width: 100%;
+    height: 15px;
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: Poppins;
+    color:#181717
+   ; border: 1px solid gray;
+    padding: 10px;
+}
+
+
+.form textarea {
+    height: 150px;
+}
+
+.form button[type="submit"] {
+    background-color: rgb(15, 15, 15);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin: auto;
+}
+
+.form button[type="submit"]:hover {
+    background-color: #3d3c3c
+}
+
+.contact-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.5;
+
+    margin-bottom: 20px;
+}
+
+.contact-info i {
+    font-size: 24px;
+    margin-right: 10px;
+} */
+.Cont-about-us
+{
+    padding: 80px 0px;
+
+}
+.Cont-container
+{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0 20px;
+
+}
+.Cont-row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Cont-flex
+{
+    flex: 0 0 50%;
+    max-width: 0 0 50%;
+    padding: 0 20px;
+}
+.Cont-about-us h2
+{
+    overflow: hidden;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.Cont-about-us h3
+{
+    overflow: hidden;
+    font-size: 22px;
+    color: #888;
+    margin-bottom: 8px;
+}
+.Cont-about-us p
+{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom:20px;
+}
+.Cont-about-us img
+{
+    display: block;
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+.Cont-btn
+{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: all 0.4s ease;
+}
+.Cont-btn:hover{
+    transform: translateY(-2px);
+}
+
+@media screen and(max-width:1024px) {
+    .Cont-about-us p
+    {
+        width: 100%;
+        text-align: justify;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:768px) {
+    .Cont-flex
+    {
+        flex: 0 0 100%;
+        max-width: 0 0 100%;
+        padding: 0 20px;
+        margin: 2%;   
+    }
+    .Cont-flex h2{
+        text-align: center;
+    }
+    .cont-flex-img{
+        display: none;
+    }
+    .Cont-about-us p
+    {
+        width: 100%;
+        text-align: justify;
+        font-size: 10px;
+    }
+}
